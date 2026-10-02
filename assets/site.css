@@ -1,0 +1,23 @@
+/* Page-level styles for the toolkit site. Design tokens live in ds/styles.css. */
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); }
+html { scroll-behavior: smooth; }
+a { color: var(--color-accent-700); }
+a:hover { color: var(--color-accent-800); }
+h1, h2, h3, h4 { margin: 0; text-wrap: pretty; }
+p { margin: 0; text-wrap: pretty; }
+section[id] { scroll-margin-top: 92px; }
+#roadmap-sheet { display: none; }
+@media print {
+  @page { size: auto; margin: 16mm 14mm; }
+  body.printing-roadmap { background: #fff !important; margin: 0 !important; padding: 0 !important; }
+  body.printing-roadmap > *:not(#roadmap-sheet) { display: none !important; }
+  body.printing-roadmap #roadmap-sheet { display: block !important; width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+  #roadmap-sheet > div { width: 100% !important; max-width: none !important; gap: 24px !important; }
+  #roadmap-sheet [data-noprint="1"] { display: none !important; }
+  #roadmap-sheet * { background: #fff !important; color: #201e1d !important; box-shadow: none !important; max-width: none !important; min-height: 0 !important; }
+  #roadmap-sheet > div > * { break-inside: avoid; }
+}
+/* Interactive pills and option buttons rendered by app.js */
+.opt { transition: border-color 0.15s; }
+.opt:hover { border-color: var(--color-accent) !important; }
+details > summary::-webkit-details-marker { display: none; }
