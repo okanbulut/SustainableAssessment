@@ -2,7 +2,7 @@
 
 Website for the Worldwide Universities Network project led from the University of Alberta: findings, institutional policy guidance, an assessment self-check, six design guidelines, redesign moves and worked examples.
 
-It is a plain static site with no build step, so it can be served directly with GitHub Pages (Settings → Pages → deploy from `main`, root).
+Live at https://sustainableassessment.org. It is a plain static site with no build step, so it can be served directly with GitHub Pages (Settings → Pages → deploy from `main`, root).
 
 ```
 index.html          the toolkit page
