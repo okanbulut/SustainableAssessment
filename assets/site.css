@@ -5,7 +5,7 @@ a { color: var(--color-accent-700); }
 a:hover { color: var(--color-accent-800); }
 h1, h2, h3, h4 { margin: 0; text-wrap: pretty; }
 p { margin: 0; text-wrap: pretty; }
-section[id] { scroll-margin-top: 92px; }
+section[id] { scroll-margin-top: 112px; }
 #roadmap-sheet { display: none; }
 @media print {
   @page { size: auto; margin: 16mm 14mm; }

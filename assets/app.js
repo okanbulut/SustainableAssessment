@@ -222,7 +222,7 @@ function pill(on) {
 
 function scrollToId(id) {
   const el = $(id);
-  if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 80, behavior: "smooth" });
+  if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 100, behavior: "smooth" });
 }
 
 // Scores the answers and resolves the roadmap. Logic mirrors the design source.
