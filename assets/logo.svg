@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Sustainable Assessment">
+  <path d="M22 40 A30 30 0 0 1 74 33" stroke="#c67139" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M83 29 L80 43 L68 36 Z" fill="#c67139"/>
+  <path d="M78 60 A30 30 0 0 1 26 67" stroke="#7a8a5e" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M17 71 L20 57 L32 64 Z" fill="#7a8a5e"/>
+  <path d="M40 50 L47 57.5 L60.5 42" stroke="#9a6a1f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
